@@ -36,7 +36,7 @@ public class Employee {
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false, length = 20)
-    private String department;
+    private Department department;
 
     @Column(nullable = false)
     private String position;
